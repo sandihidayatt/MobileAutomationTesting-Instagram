@@ -1,0 +1,96 @@
+{
+  "start": "2023-09-25T00:23:21.149Z",
+  "end": "2023-09-25T00:23:32.455Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "13",
+      "automationName": "UIAutomator2",
+      "appPackage": "com.instagram.android",
+      "appActivity": "com.instagram.mainactivity.MainActivity",
+      "noReset": true,
+      "autoGrantPermissions": true,
+      "forceAppLaunch": true
+    },
+    "platformName": "Android",
+    "platformVersion": "13",
+    "automationName": "UIAutomator2",
+    "appPackage": "com.instagram.android",
+    "appActivity": "com.instagram.mainactivity.MainActivity",
+    "noReset": true,
+    "autoGrantPermissions": true,
+    "forceAppLaunch": true,
+    "deviceName": "192.168.137.181:5555",
+    "deviceUDID": "192.168.137.181:5555",
+    "deviceApiLevel": 33,
+    "deviceScreenSize": "720x1600",
+    "deviceScreenDensity": 300,
+    "deviceModel": "SM-M225FV",
+    "deviceManufacturer": "samsung",
+    "pixelRatio": 1.875,
+    "statBarHeight": 53,
+    "viewportRect": {
+      "left": 0,
+      "top": 53,
+      "width": 720,
+      "height": 1399
+    },
+    "sessionId": "8e029204-fd52-4366-acff-8828b38b41e5"
+  },
+  "host": "0.0.0.0",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "duration": 11306,
+  "suites": [
+    {
+      "title": "Failed send message account was locked",
+      "duration": 11035,
+      "start": "2023-09-25T00:23:21.158Z",
+      "end": "2023-09-25T00:23:32.193Z",
+      "tests": [
+        {
+          "title": "Click menu search",
+          "start": "2023-09-25T00:23:21.158Z",
+          "end": "2023-09-25T00:23:26.199Z",
+          "duration": 5041,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Input account username",
+          "start": "2023-09-25T00:23:26.201Z",
+          "end": "2023-09-25T00:23:29.856Z",
+          "duration": 3655,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Verify account locked",
+          "start": "2023-09-25T00:23:29.857Z",
+          "end": "2023-09-25T00:23:32.192Z",
+          "duration": 2335,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///H:/QA%20Intermediate/AutomationTestInstagram/test/specs/FailedSendMessage.spec.js"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}

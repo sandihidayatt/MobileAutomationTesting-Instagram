@@ -1,0 +1,96 @@
+{
+  "start": "2023-09-25T00:23:02.321Z",
+  "end": "2023-09-25T00:23:07.309Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "13",
+      "automationName": "UIAutomator2",
+      "appPackage": "com.instagram.android",
+      "appActivity": "com.instagram.mainactivity.MainActivity",
+      "noReset": true,
+      "autoGrantPermissions": true,
+      "forceAppLaunch": true
+    },
+    "platformName": "Android",
+    "platformVersion": "13",
+    "automationName": "UIAutomator2",
+    "appPackage": "com.instagram.android",
+    "appActivity": "com.instagram.mainactivity.MainActivity",
+    "noReset": true,
+    "autoGrantPermissions": true,
+    "forceAppLaunch": true,
+    "deviceName": "192.168.137.181:5555",
+    "deviceUDID": "192.168.137.181:5555",
+    "deviceApiLevel": 33,
+    "deviceScreenSize": "720x1600",
+    "deviceScreenDensity": 300,
+    "deviceModel": "SM-M225FV",
+    "deviceManufacturer": "samsung",
+    "pixelRatio": 1.875,
+    "statBarHeight": 53,
+    "viewportRect": {
+      "left": 0,
+      "top": 53,
+      "width": 720,
+      "height": 1399
+    },
+    "sessionId": "c90c4319-c443-4202-bc5f-cee1a5354498"
+  },
+  "host": "0.0.0.0",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "duration": 4988,
+  "suites": [
+    {
+      "title": "Failed follow accounts because unregistered account",
+      "duration": 4618,
+      "start": "2023-09-25T00:23:02.335Z",
+      "end": "2023-09-25T00:23:06.953Z",
+      "tests": [
+        {
+          "title": "Click menu search",
+          "start": "2023-09-25T00:23:02.335Z",
+          "end": "2023-09-25T00:23:02.918Z",
+          "duration": 583,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Input account username",
+          "start": "2023-09-25T00:23:02.919Z",
+          "end": "2023-09-25T00:23:05.324Z",
+          "duration": 2405,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Verify search results",
+          "start": "2023-09-25T00:23:05.325Z",
+          "end": "2023-09-25T00:23:06.946Z",
+          "duration": 1621,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///H:/QA%20Intermediate/AutomationTestInstagram/test/specs/FailedFollowAccount.spec.js"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}

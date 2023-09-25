@@ -1,0 +1,120 @@
+{
+  "start": "2023-09-25T00:47:20.152Z",
+  "end": "2023-09-25T00:47:38.848Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "13",
+      "automationName": "UIAutomator2",
+      "appPackage": "com.instagram.android",
+      "appActivity": "com.instagram.mainactivity.MainActivity",
+      "noReset": true,
+      "autoGrantPermissions": true,
+      "forceAppLaunch": true
+    },
+    "platformName": "Android",
+    "platformVersion": "13",
+    "automationName": "UIAutomator2",
+    "appPackage": "com.instagram.android",
+    "appActivity": "com.instagram.mainactivity.MainActivity",
+    "noReset": true,
+    "autoGrantPermissions": true,
+    "forceAppLaunch": true,
+    "deviceName": "192.168.137.181:5555",
+    "deviceUDID": "192.168.137.181:5555",
+    "deviceApiLevel": 33,
+    "deviceScreenSize": "720x1600",
+    "deviceScreenDensity": 300,
+    "deviceModel": "SM-M225FV",
+    "deviceManufacturer": "samsung",
+    "pixelRatio": 1.875,
+    "statBarHeight": 53,
+    "viewportRect": {
+      "left": 0,
+      "top": 53,
+      "width": 720,
+      "height": 1399
+    },
+    "sessionId": "ba6289c4-d801-4ce8-a17b-86657997c36a"
+  },
+  "host": "0.0.0.0",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "duration": 18696,
+  "suites": [
+    {
+      "title": "Success send message",
+      "duration": 18201,
+      "start": "2023-09-25T00:47:20.178Z",
+      "end": "2023-09-25T00:47:38.379Z",
+      "tests": [
+        {
+          "title": "Click menu search",
+          "start": "2023-09-25T00:47:20.180Z",
+          "end": "2023-09-25T00:47:23.383Z",
+          "duration": 3203,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Input account username",
+          "start": "2023-09-25T00:47:23.391Z",
+          "end": "2023-09-25T00:47:27.739Z",
+          "duration": 4348,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click button send message",
+          "start": "2023-09-25T00:47:27.740Z",
+          "end": "2023-09-25T00:47:32.150Z",
+          "duration": 4410,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Input message",
+          "start": "2023-09-25T00:47:32.151Z",
+          "end": "2023-09-25T00:47:35.878Z",
+          "duration": 3727,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click send",
+          "start": "2023-09-25T00:47:35.880Z",
+          "end": "2023-09-25T00:47:36.776Z",
+          "duration": 896,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Verify success send message",
+          "start": "2023-09-25T00:47:36.777Z",
+          "end": "2023-09-25T00:47:38.377Z",
+          "duration": 1600,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///H:/QA%20Intermediate/AutomationTestInstagram/test/specs/SuccessSendMessage.spec.js"
+  ],
+  "state": {
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0
+  }
+}
